@@ -1,17 +1,26 @@
-import logo from './logo.png';
+import React, { Component } from 'react';
+import { Routes, Route } from 'react-router-dom';
+
 import './App.css';
+import Home from './Home';
+import Calculator from './Calculator';
+import Quote from './Quote';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Math Magician Project Setup
-        </p>
-      </header>
-    </div>
-  );
+export default class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+
+  render() {
+    return (
+      <>
+        <Routes>
+          <Route path="/" exact element={<Home />} />
+          <Route path="/calculate" exact element={<Calculator />} />
+          <Route path="/quote" exact element={<Quote />} />
+        </Routes>
+      </>
+    );
+  }
 }
-
-export default App;
