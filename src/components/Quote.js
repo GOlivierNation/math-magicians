@@ -9,8 +9,8 @@ const Home = () => (
       </div>
       <div className="contentDescription">
         <p>
-          Mathematics is not about numbers, equations, computations,
-          or algorithms: it is about understanding. -William Paul thurston.
+        Mathematics is not about numbers, equations, computations,
+        or algorithms: it is about understanding. -William Paul thurston.
           <br />
           <br />
           <br />
@@ -18,7 +18,7 @@ const Home = () => (
       </div>
     </div>
     <div className="footer">
-      &copy; All right reserved By: Olivier
+      &copy; All right reserved by Olivier.
     </div>
   </div>
 );

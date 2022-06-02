@@ -57,7 +57,7 @@ class Calculator extends React.Component {
           </div>
         </div>
         <div className="footer">
-          &copy; All right reserved By: Olivier
+          &copy; All right reserved by Olivier.
         </div>
       </div>
     );
