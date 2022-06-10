@@ -9,6 +9,9 @@ This is the first project of the Math Magicians application. You will set up the
 - Html, Css & JavaScript linters
 - React.Js
 
+## DEMO 🚨
+[DEMO](https://specchrecog.herokuapp.com/)
+
 ##### Getting Started
 - clone the repository by running\
     `git clone https://github.com/GOlivierNation/math-magicians.git`
