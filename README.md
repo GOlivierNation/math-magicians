@@ -11,6 +11,7 @@ This is the first project of the Math Magicians application. You will set up the
 
 ## DEMO 🚨
 [DEMO](https://specchrecog.herokuapp.com/)
+      (https://mathmagiciansbyolivier.netlify.app/)
 
 ##### Getting Started
 - clone the repository by running\
